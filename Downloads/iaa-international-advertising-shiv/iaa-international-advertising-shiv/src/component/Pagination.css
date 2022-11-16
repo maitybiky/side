@@ -1,0 +1,39 @@
+/*
+Page-navigation Area Style*/
+.pagination-area {
+    margin-top: 40px;
+  }
+  
+  .pagination-area .page-numbers {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #898c90;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 16px;
+    /* border: 1px solid #eeeeee; */
+  }
+  
+  .pagination-area .page-numbers:hover {
+    color: #ffffff;
+    background-color: #212529;
+  }
+  
+  .pagination-area .page-numbers i {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .pagination-area .page-numbers.next {
+    top: 3px;
+  }
+  
+  .pagination-area .page-numbers.current {
+    color: #ffffff;
+    border-color: #f48225;
+    background-color: #212529;
+  }
